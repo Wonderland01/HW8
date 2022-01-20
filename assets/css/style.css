@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vh;
+
+
+
+}
+
+
+
+
+
+.ee{
+  width: 200px;
+  height: 200px;
+ 
+position: absolute;
+  transition: 0.2s;
+  box-shadow: 2px 4px 6px blue ;
+
+
+
+
+
+
+}
+.ee img{
+  width: 100%;
+  height: 100%;
+}
+.ee:hover{
+  transform: scale(2) rotateX(45deg);
+}
